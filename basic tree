@@ -1,0 +1,18 @@
+class TreeNode {
+
+String Data
+TreenNode left
+TreeNode right
+
+TreeNode(String data){
+}
+
+void print(){
+print(data + " ")
+}
+
+void debug(){
+print("" + left.data "_" +data+ "_" right.data)
+}
+}
+
