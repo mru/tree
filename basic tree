@@ -1,10 +1,41 @@
-class TreeNode {
 
-String Data
-TreenNode left
-TreeNode right
+void insert(int data){
+struct node *tempnode;
+struct node *current;
+struct node *parent;
 
+tempNode->data = data;
+tempNode->leftChild = null;
+tempNode->rightChild = null;
+TreeNode tempNode
+
+if(root==NULL)
+{
+ root=tempNode;
+}
+else {
+current = root;
+parent = NULL;
+
+while (1){
+ parent = current;
+ if(data < parent->data){
+ current<-current->left;
+ 
+ if(current = NULL){
+ parent->left= tempNode;
+ return;
+ }
+ }
+ else {
+ current<-current->rightchild;
+ if(current = NULL){
+ parent<-right = temp;
+ return;
+ }
+ 
 TreeNode(String data){
+
 }
 
 void print(){
